@@ -46,3 +46,26 @@
         outline: none;
     }
 }
+
+@media screen and (max-width: 600px){
+   .header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+   }
+   .user-image {
+    display: none;
+   }
+   .search-bar {
+    width: 100%;
+    margin-top: 5px;
+
+   form button {
+        height: 28px;
+    }
+    input{
+        height: 28px;
+    }
+   }
+}
